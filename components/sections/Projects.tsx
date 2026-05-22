@@ -79,7 +79,7 @@ export function Projects({ githubRepos }: ProjectsProps) {
                         </span>
                       ))}
                     </div>
-                    <div className="mt-5 flex gap-3">
+                    {/* <div className="mt-5 flex gap-3">
                       <a
                         href={project.github}
                         target="_blank"
@@ -100,7 +100,7 @@ export function Projects({ githubRepos }: ProjectsProps) {
                           Demo
                         </a>
                       )}
-                    </div>
+                    </div> */}
                   </div>
                 </article>
               </TiltCard>
