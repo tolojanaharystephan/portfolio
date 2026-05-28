@@ -70,11 +70,11 @@ export function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/5 pt-8 sm:flex-row">
-          <p className="flex items-center gap-1 text-xs text-slate-600">
+          {/* <p className="flex items-center gap-1 text-xs text-slate-600">
             © {year} {personalInfo.shortName}. Fait avec
             <Heart size={12} className="text-rose-500" />
             à Madagascar
-          </p>
+          </p> */}
           <a
             href={personalInfo.cvUrl}
             target="_blank"
